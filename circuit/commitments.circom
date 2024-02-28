@@ -105,11 +105,6 @@ template CheckHomomorphism(n) {
 
     isEqual[0].out === 1;
     isEqual[1].out === 1;
-
-    log("cypher_a_plus_b.xout: ", cypher_a_plus_b.xout);
-    log("pedersen_commitment[0]", pedersen_commitment[0]);
-    log("cypher_a_plus_b.yout: ", cypher_a_plus_b.yout);
-    log("pedersen_commitment[1]", pedersen_commitment[1]);
 }
 
 component main = CheckHomomorphism(252);
